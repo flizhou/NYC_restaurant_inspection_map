@@ -1,0 +1,1030 @@
+boro,cuisine type,grade,count
+0,9,A,1
+0,29,A,1
+0,42,A,3
+0,64,-2,3
+Bronx,0,-2,1
+Bronx,0,A,2
+Bronx,1,-2,1
+Bronx,1,A,4
+Bronx,1,P,3
+Bronx,2,-2,1
+Bronx,2,A,20
+Bronx,3,-2,8
+Bronx,3,A,120
+Bronx,3,B,22
+Bronx,3,C,3
+Bronx,3,P,27
+Bronx,4,-2,1
+Bronx,4,A,7
+Bronx,4,P,1
+Bronx,5,A,23
+Bronx,5,P,5
+Bronx,8,A,1
+Bronx,10,A,1
+Bronx,11,A,4
+Bronx,11,B,1
+Bronx,11,P,1
+Bronx,13,-2,1
+Bronx,13,A,70
+Bronx,13,B,2
+Bronx,13,C,1
+Bronx,13,P,3
+Bronx,14,A,3
+Bronx,14,B,1
+Bronx,14,P,1
+Bronx,15,A,3
+Bronx,17,A,2
+Bronx,18,A,5
+Bronx,18,B,2
+Bronx,18,P,1
+Bronx,19,A,5
+Bronx,20,A,3
+Bronx,21,A,2
+Bronx,23,A,13
+Bronx,23,B,1
+Bronx,23,C,1
+Bronx,23,P,1
+Bronx,24,-2,2
+Bronx,24,A,98
+Bronx,24,B,12
+Bronx,24,C,2
+Bronx,24,P,13
+Bronx,26,A,9
+Bronx,26,P,1
+Bronx,28,A,1
+Bronx,29,A,1
+Bronx,30,A,1
+Bronx,30,P,2
+Bronx,31,-2,1
+Bronx,31,A,82
+Bronx,31,B,6
+Bronx,31,C,5
+Bronx,31,P,23
+Bronx,32,-2,2
+Bronx,32,A,42
+Bronx,32,B,3
+Bronx,32,C,1
+Bronx,32,P,10
+Bronx,33,-2,1
+Bronx,33,A,51
+Bronx,33,B,1
+Bronx,33,C,1
+Bronx,33,P,6
+Bronx,37,A,16
+Bronx,37,B,4
+Bronx,37,C,2
+Bronx,37,P,6
+Bronx,40,A,1
+Bronx,42,-2,10
+Bronx,42,A,341
+Bronx,42,B,11
+Bronx,42,C,1
+Bronx,42,P,43
+Bronx,43,P,1
+Bronx,44,-2,1
+Bronx,44,A,34
+Bronx,44,B,2
+Bronx,44,P,3
+Bronx,47,A,5
+Bronx,47,P,1
+Bronx,48,A,5
+Bronx,48,B,1
+Bronx,48,P,1
+Bronx,54,A,8
+Bronx,54,B,1
+Bronx,55,-2,4
+Bronx,55,A,169
+Bronx,55,B,10
+Bronx,55,C,2
+Bronx,55,P,16
+Bronx,56,-2,10
+Bronx,56,A,77
+Bronx,56,B,20
+Bronx,56,C,3
+Bronx,56,P,22
+Bronx,57,A,6
+Bronx,57,B,1
+Bronx,58,A,1
+Bronx,60,-2,2
+Bronx,60,A,23
+Bronx,61,-2,4
+Bronx,61,A,250
+Bronx,61,B,14
+Bronx,61,C,4
+Bronx,61,P,15
+Bronx,62,A,8
+Bronx,64,-2,97
+Bronx,64,A,8
+Bronx,64,B,1
+Bronx,64,P,2
+Bronx,65,-2,1
+Bronx,65,A,36
+Bronx,65,B,2
+Bronx,65,C,1
+Bronx,65,P,4
+Bronx,66,A,1
+Bronx,66,P,1
+Bronx,68,A,8
+Bronx,68,B,1
+Bronx,69,A,43
+Bronx,69,B,1
+Bronx,70,A,2
+Bronx,70,B,1
+Bronx,71,-2,3
+Bronx,71,A,86
+Bronx,71,B,9
+Bronx,71,C,1
+Bronx,71,P,13
+Bronx,74,-2,1
+Bronx,74,A,58
+Bronx,74,B,3
+Bronx,74,P,1
+Bronx,77,A,66
+Bronx,78,A,1
+Bronx,80,-2,1
+Bronx,80,A,21
+Bronx,80,B,3
+Bronx,80,C,1
+Bronx,80,P,3
+Bronx,81,A,1
+Bronx,82,A,5
+Brooklyn,0,A,10
+Brooklyn,0,B,1
+Brooklyn,0,P,2
+Brooklyn,1,-2,2
+Brooklyn,1,A,6
+Brooklyn,1,B,1
+Brooklyn,1,P,1
+Brooklyn,2,-2,3
+Brooklyn,2,A,86
+Brooklyn,2,B,3
+Brooklyn,2,C,2
+Brooklyn,2,P,8
+Brooklyn,3,-2,4
+Brooklyn,3,A,113
+Brooklyn,3,B,3
+Brooklyn,3,P,15
+Brooklyn,4,A,48
+Brooklyn,4,B,2
+Brooklyn,4,C,1
+Brooklyn,4,P,10
+Brooklyn,5,-2,2
+Brooklyn,5,A,29
+Brooklyn,5,B,5
+Brooklyn,5,C,1
+Brooklyn,5,P,8
+Brooklyn,6,A,1
+Brooklyn,7,A,1
+Brooklyn,8,-2,2
+Brooklyn,8,A,39
+Brooklyn,8,B,4
+Brooklyn,8,P,4
+Brooklyn,9,A,1
+Brooklyn,10,-2,1
+Brooklyn,10,A,10
+Brooklyn,10,B,1
+Brooklyn,10,P,1
+Brooklyn,11,-2,1
+Brooklyn,11,A,54
+Brooklyn,11,B,4
+Brooklyn,11,C,1
+Brooklyn,11,P,7
+Brooklyn,12,-2,1
+Brooklyn,12,A,8
+Brooklyn,12,B,1
+Brooklyn,13,-2,8
+Brooklyn,13,A,163
+Brooklyn,13,B,7
+Brooklyn,13,C,2
+Brooklyn,13,P,15
+Brooklyn,14,-2,5
+Brooklyn,14,A,64
+Brooklyn,14,B,10
+Brooklyn,14,P,9
+Brooklyn,15,A,27
+Brooklyn,15,B,2
+Brooklyn,15,P,7
+Brooklyn,16,A,1
+Brooklyn,17,A,3
+Brooklyn,18,-2,4
+Brooklyn,18,A,144
+Brooklyn,18,B,14
+Brooklyn,18,C,6
+Brooklyn,18,P,21
+Brooklyn,19,-2,1
+Brooklyn,19,A,13
+Brooklyn,19,B,1
+Brooklyn,19,C,1
+Brooklyn,19,P,2
+Brooklyn,20,A,15
+Brooklyn,20,C,2
+Brooklyn,21,-2,1
+Brooklyn,21,A,43
+Brooklyn,21,B,4
+Brooklyn,21,C,1
+Brooklyn,21,P,3
+Brooklyn,22,-2,1
+Brooklyn,22,A,3
+Brooklyn,22,B,1
+Brooklyn,23,-2,6
+Brooklyn,23,A,153
+Brooklyn,23,B,10
+Brooklyn,23,C,3
+Brooklyn,23,P,17
+Brooklyn,24,-2,13
+Brooklyn,24,A,238
+Brooklyn,24,B,12
+Brooklyn,24,C,3
+Brooklyn,24,P,37
+Brooklyn,25,A,2
+Brooklyn,26,A,12
+Brooklyn,27,A,1
+Brooklyn,28,A,6
+Brooklyn,28,P,1
+Brooklyn,29,A,7
+Brooklyn,29,P,1
+Brooklyn,30,A,3
+Brooklyn,31,-2,21
+Brooklyn,31,A,238
+Brooklyn,31,B,20
+Brooklyn,31,C,9
+Brooklyn,31,P,41
+Brooklyn,32,-2,3
+Brooklyn,32,A,96
+Brooklyn,32,B,11
+Brooklyn,32,C,4
+Brooklyn,32,P,15
+Brooklyn,33,-2,18
+Brooklyn,33,A,413
+Brooklyn,33,B,14
+Brooklyn,33,P,25
+Brooklyn,34,A,2
+Brooklyn,35,A,3
+Brooklyn,36,A,27
+Brooklyn,36,B,1
+Brooklyn,36,P,3
+Brooklyn,37,-2,2
+Brooklyn,37,A,14
+Brooklyn,37,B,2
+Brooklyn,37,C,1
+Brooklyn,37,P,4
+Brooklyn,39,A,1
+Brooklyn,39,P,1
+Brooklyn,40,A,2
+Brooklyn,40,B,1
+Brooklyn,41,-2,1
+Brooklyn,41,A,8
+Brooklyn,41,C,1
+Brooklyn,41,P,4
+Brooklyn,42,-2,39
+Brooklyn,42,A,1054
+Brooklyn,42,B,38
+Brooklyn,42,C,12
+Brooklyn,42,P,113
+Brooklyn,43,-2,4
+Brooklyn,43,A,37
+Brooklyn,43,B,1
+Brooklyn,43,C,1
+Brooklyn,43,P,8
+Brooklyn,44,-2,5
+Brooklyn,44,A,155
+Brooklyn,44,B,3
+Brooklyn,44,P,16
+Brooklyn,45,-2,1
+Brooklyn,45,A,6
+Brooklyn,45,P,3
+Brooklyn,47,-2,3
+Brooklyn,47,A,71
+Brooklyn,47,B,5
+Brooklyn,47,P,12
+Brooklyn,48,-2,2
+Brooklyn,48,A,79
+Brooklyn,48,B,7
+Brooklyn,48,P,17
+Brooklyn,49,A,2
+Brooklyn,49,P,2
+Brooklyn,50,A,4
+Brooklyn,51,A,3
+Brooklyn,52,A,9
+Brooklyn,52,B,3
+Brooklyn,52,C,1
+Brooklyn,52,P,3
+Brooklyn,53,A,2
+Brooklyn,53,B,1
+Brooklyn,53,P,1
+Brooklyn,54,A,21
+Brooklyn,54,B,1
+Brooklyn,54,C,1
+Brooklyn,54,P,2
+Brooklyn,55,-2,9
+Brooklyn,55,A,268
+Brooklyn,55,B,9
+Brooklyn,55,C,2
+Brooklyn,55,P,29
+Brooklyn,56,-2,7
+Brooklyn,56,A,107
+Brooklyn,56,B,13
+Brooklyn,56,C,3
+Brooklyn,56,P,13
+Brooklyn,57,-2,4
+Brooklyn,57,A,38
+Brooklyn,57,B,1
+Brooklyn,57,P,2
+Brooklyn,58,-2,2
+Brooklyn,58,A,27
+Brooklyn,58,B,4
+Brooklyn,58,P,6
+Brooklyn,59,-2,1
+Brooklyn,59,A,13
+Brooklyn,59,B,1
+Brooklyn,59,P,1
+Brooklyn,60,A,31
+Brooklyn,60,B,2
+Brooklyn,60,P,4
+Brooklyn,61,-2,15
+Brooklyn,61,A,596
+Brooklyn,61,B,40
+Brooklyn,61,C,7
+Brooklyn,61,P,74
+Brooklyn,62,-2,1
+Brooklyn,62,A,19
+Brooklyn,62,B,2
+Brooklyn,62,P,4
+Brooklyn,63,A,8
+Brooklyn,64,-2,344
+Brooklyn,64,A,39
+Brooklyn,64,B,1
+Brooklyn,64,P,11
+Brooklyn,65,-2,5
+Brooklyn,65,A,96
+Brooklyn,65,B,3
+Brooklyn,65,P,5
+Brooklyn,66,A,5
+Brooklyn,66,P,4
+Brooklyn,67,A,3
+Brooklyn,67,P,1
+Brooklyn,68,-2,1
+Brooklyn,68,A,28
+Brooklyn,68,B,1
+Brooklyn,68,P,4
+Brooklyn,69,-2,2
+Brooklyn,69,A,55
+Brooklyn,69,P,3
+Brooklyn,70,-2,1
+Brooklyn,70,A,3
+Brooklyn,70,P,1
+Brooklyn,71,-2,5
+Brooklyn,71,A,127
+Brooklyn,71,B,9
+Brooklyn,71,C,2
+Brooklyn,71,P,16
+Brooklyn,74,-2,2
+Brooklyn,74,A,82
+Brooklyn,74,P,1
+Brooklyn,75,A,1
+Brooklyn,75,B,1
+Brooklyn,75,P,2
+Brooklyn,76,A,7
+Brooklyn,77,-2,2
+Brooklyn,77,A,120
+Brooklyn,77,C,1
+Brooklyn,77,P,2
+Brooklyn,78,-2,1
+Brooklyn,78,A,6
+Brooklyn,80,-2,1
+Brooklyn,80,A,44
+Brooklyn,80,B,3
+Brooklyn,80,P,7
+Brooklyn,81,A,1
+Brooklyn,82,A,6
+Brooklyn,82,B,1
+Brooklyn,82,P,1
+Brooklyn,83,-2,2
+Brooklyn,83,A,21
+Brooklyn,83,B,3
+Brooklyn,83,P,5
+Manhattan,0,A,14
+Manhattan,0,B,1
+Manhattan,1,A,4
+Manhattan,1,P,1
+Manhattan,2,-2,4
+Manhattan,2,A,105
+Manhattan,2,B,2
+Manhattan,2,C,1
+Manhattan,2,P,9
+Manhattan,3,-2,4
+Manhattan,3,A,139
+Manhattan,3,B,13
+Manhattan,3,C,4
+Manhattan,3,P,28
+Manhattan,4,-2,7
+Manhattan,4,A,93
+Manhattan,4,B,15
+Manhattan,4,C,5
+Manhattan,4,P,25
+Manhattan,5,-2,5
+Manhattan,5,A,80
+Manhattan,5,B,3
+Manhattan,5,C,1
+Manhattan,5,P,10
+Manhattan,6,A,5
+Manhattan,6,B,1
+Manhattan,6,P,1
+Manhattan,7,-2,1
+Manhattan,7,A,2
+Manhattan,8,-2,1
+Manhattan,8,A,58
+Manhattan,8,B,3
+Manhattan,8,P,11
+Manhattan,9,A,4
+Manhattan,9,B,1
+Manhattan,10,-2,1
+Manhattan,10,A,4
+Manhattan,10,B,1
+Manhattan,10,C,1
+Manhattan,11,-2,2
+Manhattan,11,A,127
+Manhattan,11,B,5
+Manhattan,11,C,1
+Manhattan,11,P,15
+Manhattan,12,-2,1
+Manhattan,12,A,19
+Manhattan,12,P,4
+Manhattan,13,-2,6
+Manhattan,13,A,215
+Manhattan,13,B,9
+Manhattan,13,C,1
+Manhattan,13,P,17
+Manhattan,14,-2,4
+Manhattan,14,A,89
+Manhattan,14,B,18
+Manhattan,14,C,5
+Manhattan,14,P,31
+Manhattan,15,A,15
+Manhattan,15,C,1
+Manhattan,15,P,3
+Manhattan,16,A,10
+Manhattan,16,C,1
+Manhattan,17,A,5
+Manhattan,18,-2,2
+Manhattan,18,A,61
+Manhattan,18,B,3
+Manhattan,18,C,1
+Manhattan,18,P,9
+Manhattan,19,A,45
+Manhattan,19,B,1
+Manhattan,19,P,9
+Manhattan,20,-2,1
+Manhattan,20,A,22
+Manhattan,20,P,1
+Manhattan,21,-2,1
+Manhattan,21,A,203
+Manhattan,21,B,7
+Manhattan,21,C,3
+Manhattan,21,P,33
+Manhattan,22,A,11
+Manhattan,22,B,2
+Manhattan,22,P,1
+Manhattan,23,-2,10
+Manhattan,23,A,376
+Manhattan,23,B,27
+Manhattan,23,C,9
+Manhattan,23,P,75
+Manhattan,24,-2,8
+Manhattan,24,A,259
+Manhattan,24,B,15
+Manhattan,24,C,4
+Manhattan,24,P,51
+Manhattan,25,A,3
+Manhattan,26,-2,4
+Manhattan,26,A,98
+Manhattan,26,B,3
+Manhattan,26,C,1
+Manhattan,26,P,9
+Manhattan,27,-2,1
+Manhattan,27,A,9
+Manhattan,27,P,1
+Manhattan,28,A,9
+Manhattan,28,C,1
+Manhattan,28,P,3
+Manhattan,29,-2,3
+Manhattan,29,A,27
+Manhattan,29,B,1
+Manhattan,29,P,4
+Manhattan,30,A,6
+Manhattan,30,B,2
+Manhattan,30,P,2
+Manhattan,31,A,26
+Manhattan,31,B,2
+Manhattan,31,C,3
+Manhattan,31,P,9
+Manhattan,32,-2,3
+Manhattan,32,A,96
+Manhattan,32,B,8
+Manhattan,32,P,22
+Manhattan,33,-2,24
+Manhattan,33,A,909
+Manhattan,33,B,19
+Manhattan,33,C,7
+Manhattan,33,P,66
+Manhattan,34,A,3
+Manhattan,35,A,1
+Manhattan,35,B,1
+Manhattan,35,P,1
+Manhattan,36,-2,4
+Manhattan,36,A,87
+Manhattan,36,B,6
+Manhattan,36,C,1
+Manhattan,36,P,13
+Manhattan,37,-2,1
+Manhattan,37,A,12
+Manhattan,37,B,1
+Manhattan,37,C,3
+Manhattan,37,P,4
+Manhattan,38,A,1
+Manhattan,39,A,4
+Manhattan,39,P,1
+Manhattan,40,A,3
+Manhattan,40,P,2
+Manhattan,41,P,1
+Manhattan,42,-2,98
+Manhattan,42,A,2484
+Manhattan,42,B,98
+Manhattan,42,C,23
+Manhattan,42,P,276
+Manhattan,43,A,7
+Manhattan,43,P,2
+Manhattan,44,-2,19
+Manhattan,44,A,464
+Manhattan,44,B,22
+Manhattan,44,C,4
+Manhattan,44,P,67
+Manhattan,45,A,64
+Manhattan,45,B,1
+Manhattan,45,P,6
+Manhattan,47,-2,1
+Manhattan,47,A,43
+Manhattan,47,B,2
+Manhattan,47,P,5
+Manhattan,48,-2,2
+Manhattan,48,A,137
+Manhattan,48,B,18
+Manhattan,48,C,2
+Manhattan,48,P,26
+Manhattan,49,P,1
+Manhattan,50,A,8
+Manhattan,50,P,3
+Manhattan,51,-2,1
+Manhattan,51,A,10
+Manhattan,52,A,15
+Manhattan,52,B,1
+Manhattan,52,P,3
+Manhattan,53,A,5
+Manhattan,54,-2,2
+Manhattan,54,A,33
+Manhattan,54,B,1
+Manhattan,54,P,3
+Manhattan,55,-2,8
+Manhattan,55,A,288
+Manhattan,55,B,18
+Manhattan,55,C,9
+Manhattan,55,P,40
+Manhattan,56,-2,5
+Manhattan,56,A,86
+Manhattan,56,B,8
+Manhattan,56,C,8
+Manhattan,56,P,20
+Manhattan,57,-2,1
+Manhattan,57,A,51
+Manhattan,57,C,1
+Manhattan,57,P,6
+Manhattan,58,-2,1
+Manhattan,58,A,33
+Manhattan,58,B,5
+Manhattan,58,P,3
+Manhattan,59,A,4
+Manhattan,60,-2,1
+Manhattan,60,A,102
+Manhattan,60,B,3
+Manhattan,60,P,8
+Manhattan,61,-2,6
+Manhattan,61,A,386
+Manhattan,61,B,43
+Manhattan,61,C,14
+Manhattan,61,P,72
+Manhattan,62,A,12
+Manhattan,62,P,2
+Manhattan,63,A,10
+Manhattan,63,P,2
+Manhattan,64,-2,487
+Manhattan,64,A,88
+Manhattan,64,P,6
+Manhattan,65,-2,7
+Manhattan,65,A,148
+Manhattan,65,B,5
+Manhattan,65,C,1
+Manhattan,65,P,15
+Manhattan,66,-2,1
+Manhattan,66,A,28
+Manhattan,66,P,1
+Manhattan,67,A,14
+Manhattan,67,B,2
+Manhattan,67,P,2
+Manhattan,68,-2,2
+Manhattan,68,A,42
+Manhattan,68,B,1
+Manhattan,68,C,1
+Manhattan,68,P,4
+Manhattan,69,-2,7
+Manhattan,69,A,142
+Manhattan,69,P,6
+Manhattan,70,A,18
+Manhattan,71,-2,3
+Manhattan,71,A,94
+Manhattan,71,B,3
+Manhattan,71,C,1
+Manhattan,71,P,14
+Manhattan,72,A,1
+Manhattan,73,A,4
+Manhattan,73,B,4
+Manhattan,74,-2,2
+Manhattan,74,A,81
+Manhattan,74,B,1
+Manhattan,74,P,6
+Manhattan,75,A,1
+Manhattan,76,-2,1
+Manhattan,76,A,24
+Manhattan,76,P,2
+Manhattan,77,-2,5
+Manhattan,77,A,131
+Manhattan,77,B,1
+Manhattan,77,P,5
+Manhattan,78,-2,1
+Manhattan,78,A,16
+Manhattan,78,P,2
+Manhattan,79,A,1
+Manhattan,79,B,1
+Manhattan,80,-2,3
+Manhattan,80,A,81
+Manhattan,80,B,14
+Manhattan,80,C,2
+Manhattan,80,P,14
+Manhattan,82,-2,2
+Manhattan,82,A,47
+Manhattan,82,B,2
+Manhattan,82,P,5
+Manhattan,83,A,22
+Manhattan,83,B,3
+Manhattan,83,P,5
+Queens,0,-2,1
+Queens,0,A,38
+Queens,0,B,3
+Queens,0,C,2
+Queens,0,P,4
+Queens,1,-2,1
+Queens,1,A,6
+Queens,1,B,5
+Queens,1,P,9
+Queens,2,-2,2
+Queens,2,A,69
+Queens,2,B,1
+Queens,2,P,3
+Queens,3,-2,8
+Queens,3,A,235
+Queens,3,B,25
+Queens,3,C,5
+Queens,3,P,41
+Queens,4,-2,2
+Queens,4,A,69
+Queens,4,B,16
+Queens,4,C,9
+Queens,4,P,13
+Queens,5,-2,2
+Queens,5,A,26
+Queens,5,B,2
+Queens,5,P,3
+Queens,6,-2,1
+Queens,6,A,13
+Queens,6,B,5
+Queens,6,C,1
+Queens,6,P,1
+Queens,7,A,1
+Queens,8,A,12
+Queens,8,B,1
+Queens,10,-2,1
+Queens,10,A,6
+Queens,10,B,2
+Queens,11,A,46
+Queens,11,B,1
+Queens,11,P,3
+Queens,12,-2,1
+Queens,12,A,6
+Queens,12,P,1
+Queens,13,-2,7
+Queens,13,A,192
+Queens,13,B,6
+Queens,13,C,2
+Queens,13,P,24
+Queens,14,A,63
+Queens,14,B,3
+Queens,14,C,1
+Queens,14,P,10
+Queens,15,-2,1
+Queens,15,A,11
+Queens,15,P,1
+Queens,17,A,6
+Queens,18,A,52
+Queens,18,B,2
+Queens,18,C,1
+Queens,18,P,7
+Queens,19,A,48
+Queens,19,B,5
+Queens,19,C,1
+Queens,19,P,4
+Queens,20,A,4
+Queens,20,B,2
+Queens,21,A,15
+Queens,21,P,2
+Queens,22,A,11
+Queens,22,P,1
+Queens,23,-2,1
+Queens,23,A,133
+Queens,23,B,8
+Queens,23,C,2
+Queens,23,P,15
+Queens,24,-2,5
+Queens,24,A,155
+Queens,24,B,10
+Queens,24,C,4
+Queens,24,P,29
+Queens,26,-2,2
+Queens,26,A,44
+Queens,26,B,2
+Queens,26,P,4
+Queens,27,A,1
+Queens,28,A,3
+Queens,29,A,5
+Queens,29,B,1
+Queens,30,A,2
+Queens,31,-2,8
+Queens,31,A,167
+Queens,31,B,13
+Queens,31,C,6
+Queens,31,P,17
+Queens,32,-2,1
+Queens,32,A,86
+Queens,32,B,3
+Queens,32,C,2
+Queens,32,P,13
+Queens,33,-2,8
+Queens,33,A,260
+Queens,33,B,8
+Queens,33,P,16
+Queens,34,A,5
+Queens,35,A,3
+Queens,35,P,1
+Queens,36,-2,4
+Queens,36,A,125
+Queens,36,B,14
+Queens,36,C,6
+Queens,36,P,25
+Queens,37,A,4
+Queens,39,-2,1
+Queens,39,A,5
+Queens,39,B,1
+Queens,40,A,2
+Queens,41,A,4
+Queens,41,P,1
+Queens,42,-2,31
+Queens,42,A,856
+Queens,42,B,30
+Queens,42,C,11
+Queens,42,P,88
+Queens,43,A,5
+Queens,44,-2,5
+Queens,44,A,90
+Queens,44,B,4
+Queens,44,P,15
+Queens,45,A,5
+Queens,45,P,1
+Queens,46,B,1
+Queens,47,-2,4
+Queens,47,A,31
+Queens,47,P,3
+Queens,48,-2,1
+Queens,48,A,86
+Queens,48,B,6
+Queens,48,C,5
+Queens,48,P,20
+Queens,49,A,1
+Queens,52,A,7
+Queens,52,B,1
+Queens,53,A,3
+Queens,54,A,31
+Queens,54,P,4
+Queens,55,-2,9
+Queens,55,A,223
+Queens,55,B,17
+Queens,55,C,2
+Queens,55,P,17
+Queens,56,-2,5
+Queens,56,A,161
+Queens,56,B,16
+Queens,56,C,5
+Queens,56,P,27
+Queens,57,A,33
+Queens,57,B,3
+Queens,57,P,3
+Queens,58,A,16
+Queens,58,B,2
+Queens,59,A,3
+Queens,60,-2,2
+Queens,60,A,49
+Queens,60,B,2
+Queens,60,P,2
+Queens,61,-2,14
+Queens,61,A,598
+Queens,61,B,50
+Queens,61,C,13
+Queens,61,P,106
+Queens,62,A,10
+Queens,62,C,1
+Queens,62,P,2
+Queens,63,-2,1
+Queens,63,A,6
+Queens,64,-2,245
+Queens,64,A,48
+Queens,64,B,1
+Queens,64,C,2
+Queens,64,P,2
+Queens,65,-2,1
+Queens,65,A,87
+Queens,65,B,1
+Queens,65,P,3
+Queens,66,A,3
+Queens,67,A,1
+Queens,68,A,26
+Queens,68,P,3
+Queens,69,-2,1
+Queens,69,A,62
+Queens,69,P,4
+Queens,70,A,4
+Queens,71,-2,1
+Queens,71,A,93
+Queens,71,B,2
+Queens,71,C,2
+Queens,71,P,11
+Queens,72,A,1
+Queens,72,B,1
+Queens,73,A,1
+Queens,74,-2,1
+Queens,74,A,90
+Queens,74,B,1
+Queens,74,C,1
+Queens,74,P,4
+Queens,75,A,2
+Queens,76,A,7
+Queens,76,P,4
+Queens,77,-2,6
+Queens,77,A,143
+Queens,77,C,1
+Queens,77,P,3
+Queens,78,A,2
+Queens,79,A,2
+Queens,80,-2,3
+Queens,80,A,74
+Queens,80,B,5
+Queens,80,C,2
+Queens,80,P,6
+Queens,81,A,1
+Queens,81,P,1
+Queens,82,-2,1
+Queens,82,A,8
+Queens,82,P,2
+Queens,83,A,8
+Queens,83,P,2
+Staten Island,0,A,3
+Staten Island,0,P,1
+Staten Island,2,A,30
+Staten Island,2,P,1
+Staten Island,3,-2,1
+Staten Island,3,A,8
+Staten Island,3,B,1
+Staten Island,3,P,2
+Staten Island,4,A,6
+Staten Island,4,B,1
+Staten Island,4,P,2
+Staten Island,5,A,3
+Staten Island,5,P,1
+Staten Island,6,A,2
+Staten Island,6,P,1
+Staten Island,7,A,1
+Staten Island,8,A,1
+Staten Island,8,P,1
+Staten Island,11,-2,3
+Staten Island,11,A,5
+Staten Island,12,A,1
+Staten Island,13,-2,1
+Staten Island,13,A,16
+Staten Island,13,B,1
+Staten Island,13,P,4
+Staten Island,14,A,3
+Staten Island,15,A,2
+Staten Island,15,P,1
+Staten Island,17,-2,1
+Staten Island,17,A,1
+Staten Island,18,A,2
+Staten Island,18,B,1
+Staten Island,19,A,5
+Staten Island,19,B,1
+Staten Island,20,A,4
+Staten Island,20,C,1
+Staten Island,23,A,27
+Staten Island,23,B,1
+Staten Island,23,P,6
+Staten Island,24,-2,1
+Staten Island,24,A,30
+Staten Island,24,B,2
+Staten Island,24,C,1
+Staten Island,24,P,9
+Staten Island,26,A,2
+Staten Island,28,A,1
+Staten Island,30,A,1
+Staten Island,31,A,3
+Staten Island,31,P,2
+Staten Island,32,A,41
+Staten Island,32,B,6
+Staten Island,32,P,8
+Staten Island,33,-2,2
+Staten Island,33,A,28
+Staten Island,33,P,2
+Staten Island,37,A,1
+Staten Island,40,A,1
+Staten Island,42,-2,2
+Staten Island,42,A,182
+Staten Island,42,B,9
+Staten Island,42,C,2
+Staten Island,42,P,26
+Staten Island,43,A,2
+Staten Island,43,P,1
+Staten Island,44,-2,2
+Staten Island,44,A,57
+Staten Island,44,B,1
+Staten Island,44,C,1
+Staten Island,44,P,10
+Staten Island,47,A,5
+Staten Island,48,A,11
+Staten Island,48,C,1
+Staten Island,48,P,1
+Staten Island,49,A,1
+Staten Island,52,A,2
+Staten Island,54,A,4
+Staten Island,55,-2,1
+Staten Island,55,A,44
+Staten Island,55,B,4
+Staten Island,55,C,3
+Staten Island,55,P,6
+Staten Island,56,A,14
+Staten Island,56,P,5
+Staten Island,57,-2,1
+Staten Island,57,A,9
+Staten Island,57,P,1
+Staten Island,58,A,3
+Staten Island,59,A,1
+Staten Island,59,P,1
+Staten Island,60,A,6
+Staten Island,60,P,1
+Staten Island,61,A,69
+Staten Island,61,B,2
+Staten Island,61,P,11
+Staten Island,62,A,1
+Staten Island,62,B,1
+Staten Island,63,A,3
+Staten Island,64,-2,53
+Staten Island,64,A,9
+Staten Island,65,A,11
+Staten Island,65,B,1
+Staten Island,65,P,2
+Staten Island,66,A,1
+Staten Island,68,A,6
+Staten Island,68,B,1
+Staten Island,69,-2,1
+Staten Island,69,A,20
+Staten Island,69,B,1
+Staten Island,69,P,1
+Staten Island,70,A,3
+Staten Island,71,A,15
+Staten Island,71,P,3
+Staten Island,74,A,21
+Staten Island,74,P,1
+Staten Island,76,A,1
+Staten Island,77,A,33
+Staten Island,77,B,1
+Staten Island,77,P,1
+Staten Island,80,A,11
+Staten Island,80,B,1
+Staten Island,80,P,1
+Staten Island,82,A,1
+Staten Island,83,A,1
+Staten Island,83,P,1
