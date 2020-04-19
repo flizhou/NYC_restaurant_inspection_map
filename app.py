@@ -169,14 +169,15 @@ def update_plot(cuisine_type):
     Output('plot-4', 'srcDoc'),
     [
         Input('restaurants', 'value'),
-        Input('map-plot', 'selectedData')
+        #Input('map-plot', 'selectedData')
     ])
-def update_plot(restaurants, selection):
+#def update_plot(restaurants, selection):
+def update_plot(restaurants):
     '''
 
     '''
-    if selection is not None:
-        restaurants = get_selected_dba(selection)
+    # if selection is not None:
+    #     restaurants = get_selected_dba(selection)
 
     plot_4 = plot_restaurants(isp_info[isp_info['dba'].isin(restaurants)].copy()).to_html()
     
