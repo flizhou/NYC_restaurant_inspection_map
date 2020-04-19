@@ -40,8 +40,8 @@ app.layout = html.Div([
     html.Iframe(
         sandbox='allow-scripts',
         id='map-plot',
-        height='500',
-        width='900',
+        height='600',
+        width='1000',
         style={'border-width': '0'},
         srcDoc=plot_map(rst_info, layer).to_html(),
         className='right-col'

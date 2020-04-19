@@ -26,19 +26,20 @@ def plot_map(data, layer):
 
     fig = px.scatter_mapbox(data, lat="latitude", lon="longitude", 
                             hover_name="dba", 
-                            hover_data=['camis', 'boro', 'current_grade', 'cuisine description',
+                            hover_data=['boro', 'current_grade', 'cuisine description',
                                         'building', 'street', 'zipcode', 'phone'],
                             color='boro',
-                            size=np.full(data.shape[0], 1),
-                            size_max=2,
-                            center=dict(lat=40.7, lon=-74), 
-                            zoom=10, 
-                            height=500)
+                            center=dict(lat=40.7, lon=-73.97), 
+                            zoom=9.5, 
+                            height=550,
+                            width=800)
 
     fig.update_layout(mapbox_accesstoken=token,
-                    mapbox_layers=layer,
-                    margin={"r":0,"t":0,"l":0,"b":0},
-                    legend_title='Borough')
+                      mapbox_layers=layer,
+                      margin={"r":0,"t":0,"l":0,"b":0},
+                      legend_title='Borough',
+                      clickmode="event+select",
+                      dragmode="lasso")
     
     return fig
     
@@ -78,9 +79,7 @@ def plot_grades_boro(data):
     fig.update_layout(title_text='The distribution of restaurant grades in differnt boroughs',
                       xaxis_title="Number of restaurants",
                       yaxis_title="Borough",
-                      legend_title='Grade',
-                      clickmode="event+select",
-                      dragmode="lasso")
+                      legend_title='Grade')
 
     return fig
 
