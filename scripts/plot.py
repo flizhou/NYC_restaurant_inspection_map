@@ -4,16 +4,41 @@ import numpy as np
 import plotly.express as px
 
 
-def plot_map(data):
+def plot_map(data, layer):
+    """
+    Returns a map graph of all restaurants.
+    
+    Parameters:
+    -----------
+    data: pandas.DataFrame
+        the array of the sample.  
+    layer: dict
+        the borough location
+
+    Returns:
+    --------
+    plotly figure
+        a map graph of all restaurants
+    """
 
     token = 'pk.eyJ1IjoiZmxpemhvdSIsImEiOiJjazg4Y2hjaW4wMjFlM3NtemhhNG90Z2ZzIn0.gxDbD64mpZbxE2HMjxEZng'
+    #token = TOKEN
 
     fig = px.scatter_mapbox(data, lat="latitude", lon="longitude", 
-                            hover_name="dba", hover_data=["dba"],
-                            color_discrete_sequence=["fuchsia"],
-                            center=dict(lat=40.7, lon=-74), zoom=10, height=500)
+                            hover_name="dba", 
+                            hover_data=['camis', 'boro', 'current_grade', 'cuisine description',
+                                        'building', 'street', 'zipcode', 'phone'],
+                            color='boro',
+                            size=np.full(data.shape[0], 1),
+                            size_max=2,
+                            center=dict(lat=40.7, lon=-74), 
+                            zoom=10, 
+                            height=500)
+
     fig.update_layout(mapbox_accesstoken=token,
-                    margin={"r":0,"t":0,"l":0,"b":0})
+                    mapbox_layers=layer,
+                    margin={"r":0,"t":0,"l":0,"b":0},
+                    legend_title='Borough')
     
     return fig
     
@@ -31,7 +56,7 @@ def plot_grades_boro(data):
     plotly figure
         a bar graph of grades based on borough
     """
-    df = data.groupby(['boro', 'grade'])[['count']].sum().drop(index=['0']).reset_index()
+    df = data.groupby(['boro', 'grade'])[['count']].sum().reset_index()
     df['sum'] =np.repeat(df.groupby(['boro'])['count'].sum().values, 5)
     df['percentage'] = df['count'] / df['sum'] * 100
 
@@ -53,12 +78,14 @@ def plot_grades_boro(data):
     fig.update_layout(title_text='The distribution of restaurant grades in differnt boroughs',
                       xaxis_title="Number of restaurants",
                       yaxis_title="Borough",
-                      legend_title='Grade')
+                      legend_title='Grade',
+                      clickmode="event+select",
+                      dragmode="lasso")
 
     return fig
 
 
-def plot_grades_cuisine(data, code_to_cuisine, title='', types=False):
+def plot_grades_cuisine(data, title='', types=False):
     """
     Returns a bar graph of grades based on cuisine.
     
@@ -66,8 +93,6 @@ def plot_grades_cuisine(data, code_to_cuisine, title='', types=False):
     -----------
     data: pandas.DataFrame
         the array of the sample. 
-    code_to_cuisine: dict
-        the dict to translate code to cuisine type. 
     title: string (default: '')
         part of the plot title indicates borough.
     types: bool (default: False)
@@ -79,18 +104,20 @@ def plot_grades_cuisine(data, code_to_cuisine, title='', types=False):
     plotly figure
         a bar graph of grades based on cuisine.
     """
-    df = data.groupby(['cuisine type', 'grade'])[['count']].sum().reset_index()
-    sum_df = df.groupby(['cuisine type'])[['count']].sum().sort_values(['count'], ascending=False).reset_index()
-    
+    df = data.groupby(['cuisine description', 'grade'])[['count']].sum().reset_index()
+    sum_df = df.groupby(['cuisine description'])[['count']].sum().sort_values(['count'], ascending=False).reset_index()
+      
     if not types:
         sum_df = sum_df.iloc[:20]
+        height = 800
         title = 'Restaurant grades distribution of top 20 most common cuisine types ' + title
     else:
+        height = max(300, 60 * sum_df.shape[0])
+
         title = 'Restaurant grades distribution ' + title
         
-    sum_df.columns = ['cuisine type', 'sum']
-    sum_df['cuisine description'] = sum_df['cuisine type'].apply(lambda x: code_to_cuisine[str(x)]).values
-    df = pd.merge(sum_df, df, how="left", on='cuisine type')
+    sum_df.columns = ['cuisine description', 'sum']
+    df = pd.merge(sum_df, df, how="left", on='cuisine description')
     df['percentage'] = df['count'] / df['sum'] * 100
 
     fig = px.bar(df, 
@@ -99,7 +126,7 @@ def plot_grades_cuisine(data, code_to_cuisine, title='', types=False):
                  color='grade', 
                  text='percentage',
                  orientation='h', 
-                 height=max(200, 40 * sum_df.shape[0]),
+                 height=height,
                  category_orders={'cuisine description': sum_df['cuisine description'],
                                   'grade': ['A', 'B', 'C', 'P', 'NA']})
     fig.update_traces(texttemplate='%{text:.1f}%', 
@@ -113,23 +140,20 @@ def plot_grades_cuisine(data, code_to_cuisine, title='', types=False):
     return fig
 
 
-def plot_restaurants(data, code_to_violation):
+def plot_restaurants(data):
     """
     Returns a plot of grades of selected restaurants over time.
     
     Parameters:
     -----------
     data: pandas.DataFrame
-        the array of the sample.  
-    code_to_violation: dict
-        the dict to translation code to violation type.
-            
+        the array of the sample.
+           
     Returns:
     --------
     plotly figure
         a plot of grades of selected restaurants over time
     """
-    data['violation description'] = data['violation type'].apply(lambda x: code_to_violation[str(x)]).values
     fig = px.line(data,
                   y='grade', 
                   x='inspection date',

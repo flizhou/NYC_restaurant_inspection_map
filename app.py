@@ -16,29 +16,16 @@ server = app.server
 app.title = 'Restaurant inspection map in New York'
 
 # Load data 
-rst_info = pd.read_csv('data/clean_data/nyc_restaurants_info.csv')
-isp_info = pd.read_csv('data/clean_data/nyc_restaurants_grades.csv')
-analysis_data = pd.read_csv('data/clean_data/nyc_restaurants_analysis.csv').replace('-2', 'NA')
+rst_info = pd.read_pickle('data/clean_data/nyc_restaurants_info.pkl')
+isp_info = pd.read_pickle('data/clean_data/nyc_restaurants_grades.pkl')
+analysis_data = pd.read_pickle('data/clean_data/nyc_restaurants_analysis.pkl').replace('-2', 'NA')
 
-# 
-with open('data/clean_data/code_to_cuisine.txt', 'r') as json_data:
-    code_to_cuisine = json.load(json_data)
-    
-with open('data/clean_data/cuisine_to_code.txt', 'r') as json_data:
-    cuisine_to_code = json.load(json_data)
-    
-with open('data/clean_data/code_to_violation.txt', 'r') as json_data:
-    code_to_violation = json.load(json_data)
-    
-with open('data/clean_data/violation_to_code.txt', 'r') as json_data:
-    violation_to_code = json.load(json_data)
-
+# Load layer dict
+with open('data/clean_data/borough_loc.json', 'r') as json_data:
+    layer = json.load(json_data)
 
 # Get cuisine list
-cuisines = list(cuisine_to_code.keys())
-
-# Get violation list
-violation = list(violation_to_code.keys())
+cuisines = rst_info['cuisine description'].unique()
 
 
 # Set up the app layout
@@ -56,7 +43,7 @@ app.layout = html.Div([
         height='500',
         width='900',
         style={'border-width': '0'},
-        srcDoc=plot_map(rst_info).to_html(),
+        srcDoc=plot_map(rst_info, layer).to_html(),
         className='right-col'
     ),
 
@@ -158,7 +145,7 @@ def update_plot(boro):
     '''
 
     '''
-    plot_2 = plot_grades_cuisine(analysis_data[analysis_data['boro'] == boro], code_to_cuisine,
+    plot_2 = plot_grades_cuisine(analysis_data[analysis_data['boro'] == boro],
                                  'in' + boro).to_html()
     return plot_2
 
@@ -169,8 +156,7 @@ def update_plot(cuisine_type):
     '''
 
     '''
-    types = [cuisine_to_code[i] for i in cuisine_type]
-    plot_3 = plot_grades_cuisine(analysis_data[analysis_data['cuisine type'].isin(types)], code_to_cuisine,
+    plot_3 = plot_grades_cuisine(analysis_data[analysis_data['cuisine description'].isin(cuisine_type)],
                                  '', True).to_html()
     return plot_3
 
@@ -181,8 +167,7 @@ def update_plot(restaurants):
     '''
 
     '''
-    plot_4 = plot_restaurants(isp_info[isp_info['camis'].isin(restaurants)].copy(),
-                              code_to_violation).to_html()
+    plot_4 = plot_restaurants(isp_info[isp_info['camis'].isin(restaurants)].copy()).to_html()
     return plot_4
 
 if __name__ == '__main__':
