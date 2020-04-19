@@ -28,7 +28,6 @@ with open('data/clean_data/borough_loc.json', 'r') as json_data:
 # Get cuisine list
 cuisines = rst_info['cuisine description'].unique()
 
-
 # Set up the app layout
 app.layout = html.Div([
 
