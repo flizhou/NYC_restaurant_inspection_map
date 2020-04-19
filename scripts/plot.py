@@ -24,8 +24,8 @@ def plot_map(data, layer):
     token = 'pk.eyJ1IjoiZmxpemhvdSIsImEiOiJjazg4Y2hjaW4wMjFlM3NtemhhNG90Z2ZzIn0.gxDbD64mpZbxE2HMjxEZng'
     #token = TOKEN
 
-    fig = px.scatter_mapbox(data, lat="latitude", lon="longitude", 
-                            hover_name="dba", 
+    fig = px.scatter_mapbox(data, lat='latitude', lon='longitude', 
+                            hover_name='dba', 
                             hover_data=['boro', 'current_grade', 'cuisine description',
                                         'building', 'street', 'zipcode', 'phone'],
                             color='boro',
@@ -43,6 +43,15 @@ def plot_map(data, layer):
     
     return fig
     
+def get_selected_dba(selection):
+    """
+
+    """
+    ind = []
+    for point in selection['points']:
+        ind.append(point['hovername'])
+    return ind
+
 def plot_grades_boro(data):
     """
     Returns a bar graph of grades based on borough.
@@ -76,7 +85,7 @@ def plot_grades_boro(data):
                       textposition='inside',
                       hovertemplate = 'Borough: %{y}' + '<br>Number: %{x}<br>' + 'Percentage: %{text:.1f}%',)
     
-    fig.update_layout(title_text='The distribution of restaurant grades in differnt boroughs',
+    fig.update_layout(title_text='The distribution of restaurant grades in different boroughs',
                       xaxis_title="Number of restaurants",
                       yaxis_title="Borough",
                       legend_title='Grade')
@@ -156,9 +165,9 @@ def plot_restaurants(data):
     fig = px.line(data,
                   y='grade', 
                   x='inspection date',
-                  color='camis',
+                  color='dba',
                   hover_name="dba", 
-                  hover_data=['camis', 'grade', 'inspection date', 'violation description'],
+                  hover_data=['boro', 'grade', 'inspection date', 'violation description'],
                   category_orders={'grade': ['A', 'P', 'B', 'C', 'NA']},
                   height=500)
 
@@ -168,6 +177,6 @@ def plot_restaurants(data):
     fig.update_layout(title_text='Restaurants inspection results over time',
                       xaxis_title="Inspection date",
                       yaxis_title="Grade",
-                      legend_title='CAMIS')
+                      legend_title='Name')
     
     return fig

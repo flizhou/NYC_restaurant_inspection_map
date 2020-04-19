@@ -6,7 +6,8 @@ import dash_bootstrap_components as dbc
 import pandas as pd
 import json
 import plotly.express as px
-from scripts.plot import plot_map, plot_grades_boro, plot_grades_cuisine, plot_restaurants
+from scripts.plot import plot_map, get_selected_dba, \
+    plot_grades_boro, plot_grades_cuisine, plot_restaurants
 
 app = dash.Dash(__name__, assets_folder='assets')
 app.config['suppress_callback_exceptions'] = True
@@ -110,9 +111,9 @@ app.layout = html.Div([
             dcc.Dropdown(
                 id='restaurants',
                 options=list(
-                    {"label": i, "value": i} for i in rst_info.camis),
+                    {"label": i, "value": i} for i in rst_info.dba),
                 multi = True,
-                value = rst_info.camis[:3],
+                value = rst_info.dba[:3],
                 clearable=False
             ),
 
@@ -123,7 +124,11 @@ app.layout = html.Div([
                 width='800',
                 style={'border-width': '0'},
             )
-        ])
+ 
+            
+         ])
+
+            
     ], className='container-2'),
 
 
@@ -139,8 +144,8 @@ app.layout = html.Div([
 
 
 @app.callback(
-    dash.dependencies.Output('plot-2', 'srcDoc'),
-    [dash.dependencies.Input('boro', 'value')])
+    Output('plot-2', 'srcDoc'),
+    [Input('boro', 'value')])
 def update_plot(boro):
     '''
 
@@ -150,8 +155,8 @@ def update_plot(boro):
     return plot_2
 
 @app.callback(
-    dash.dependencies.Output('plot-3', 'srcDoc'),
-    [dash.dependencies.Input('cuisine-type', 'value')])
+    Output('plot-3', 'srcDoc'),
+    [Input('cuisine-type', 'value')])
 def update_plot(cuisine_type):
     '''
 
@@ -161,14 +166,22 @@ def update_plot(cuisine_type):
     return plot_3
 
 @app.callback(
-    dash.dependencies.Output('plot-4', 'srcDoc'),
-    [dash.dependencies.Input('restaurants', 'value')])
-def update_plot(restaurants):
+    Output('plot-4', 'srcDoc'),
+    [
+        Input('restaurants', 'value'),
+        Input('map-plot', 'selectedData')
+    ])
+def update_plot(restaurants, selection):
     '''
 
     '''
-    plot_4 = plot_restaurants(isp_info[isp_info['camis'].isin(restaurants)].copy()).to_html()
+    if selection is not None:
+        restaurants = get_selected_dba(selection)
+
+    plot_4 = plot_restaurants(isp_info[isp_info['dba'].isin(restaurants)].copy()).to_html()
+    
     return plot_4
+
 
 if __name__ == '__main__':
 
