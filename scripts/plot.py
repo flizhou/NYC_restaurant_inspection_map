@@ -85,7 +85,7 @@ def plot_grades_boro(data):
                       textposition='inside',
                       hovertemplate = 'Borough: %{y}' + '<br>Number: %{x}<br>' + 'Percentage: %{text:.1f}%',)
     
-    fig.update_layout(title_text='The distribution of restaurant grades in different boroughs',
+    fig.update_layout(title_text='Restaurant grade distribution in different boroughs',
                       xaxis_title="Number of restaurants",
                       yaxis_title="Borough",
                       legend_title='Grade')
@@ -118,7 +118,7 @@ def plot_grades_cuisine(data, title='', types=False):
     if not types:
         sum_df = sum_df.iloc[:20]
         height = 800
-        title = 'Restaurant grades distribution of top 20 most common cuisine types ' + title
+        title = 'Restaurant grade distribution of the top 20 most common cuisine types ' + title
     else:
         height = max(300, 60 * sum_df.shape[0])
 
@@ -174,7 +174,7 @@ def plot_restaurants(data):
     fig.update_traces(mode='markers+lines', 
                       opacity=0.5)
 
-    fig.update_layout(title_text='Restaurants inspection results over time',
+    fig.update_layout(title_text='Restaurant inspection results over time',
                       xaxis_title="Inspection date",
                       yaxis_title="Grade",
                       legend_title='Name')
