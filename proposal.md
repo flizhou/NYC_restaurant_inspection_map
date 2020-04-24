@@ -2,7 +2,7 @@
 
 ### 1. Motivation and Purpose
 
-How often do you eat in a restaurant? How do you pick where to eat? Some surveys tell us that 56% Americans in the survey eat outside 2-3 times a week [1] and 95% Americans pick restaurants based on online reviews [2]. To ensure restaurant food safety, the government is responding to claims and inspecting restaurants. But many people are not aware of the existence of restaurant hygiene inspection results. The purpose of this visualization app is to provide an easy way for people to check the inspection results of restaurants in the New York city.
+How often do you eat in a restaurant? How do you pick where to eat? Some surveys tell us that 56% Americans in the survey eat outside 2-3 times a week [1] and 95% Americans pick restaurants based on online reviews [2]. To ensure restaurant food safety, the government is responding to claims and inspecting restaurants. But many people are not aware of the existence of restaurant hygiene inspection results. The purpose of this visualization app is to provide an easy way for people to check the inspection results of restaurants in New York City (NYC).
 
 ### 2. Description of the data
 
@@ -28,7 +28,7 @@ The rest 12 variables are related to restaurant identification and location, and
 
 > This research will help users find out the inspection history of a restaurant to decide whether the restaurant is a safe place to eat.
 
-Let's image a twenty-year-old girl named Sarah who is new to the New York city. Today she wants to pick a place to eat for dinner. Besides restaurant reviews, Sarah also cares about the food safety of the restaurant. Before looking into reviews, she want to have a sip of the food safety status in the New York city. Luckily, she knows that this NYC restaurant inspection map app is here to help.
+Let's image a twenty-year-old girl named Sarah who is new to NYC. Today she wants to pick a place to eat for dinner. Besides restaurant reviews, Sarah also cares about the food safety of the restaurant. Before looking into reviews, she wants to have a sip of the food safety status in the New York city. Luckily, she knows that this NYC restaurant inspection map app is here to help. Once Sarah opens the app, she finds the restaurant map in NYC at first sight. She can enlarge the map and use the tooltip to check restaurant's information. Then Sarah can check the restaurant grade distribution in different boroughs under the "Borough" tab. If she is interested in Manhanttan restaurants, then she can choose "Manhattan" in the dropdown menu and find the restaurant grade distribution of top 20 most common cuisine types in Manhattan. Sarah also wants to know the restaurant grade distribution of American or Chinese styles. Then she can click on the "Cuisine type" tab and choose "American" and "Chinese" in the dropdown menu to find out the information. Finally, Sarah can click on the "Restaurant" tab and choose restaurant names in the dropdown menu to view the restaurants' inspection results over time.
 
 ...
 
